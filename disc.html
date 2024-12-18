@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дискография</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #222;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px; /* Увеличен максимальный размер для более широких карточек */
+            margin: auto;
+        }
+
+        .album-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between; /* Обеспечивает равномерное распределение карточек */
+        }
+
+        .album {
+            border: 1px solid #ccc; 
+            margin: 10px; 
+            padding: 10px; 
+            flex-basis: 22%; /* Установлено значение для 4-х блоков на строке */
+            text-align: center;
+            box-sizing: border-box; /* Учитывает границы и отступы в ширине */
+            transition: transform 0.2s; /* Плавный эффект при наведении */
+        }
+
+        .album:hover {
+            transform: scale(1.05); /* Увеличение карточки при наведении */
+        }
+
+        img {
+            max-width: 100%; 
+            height: auto;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: #fff;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer small {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Дискография</h1>
+</header>
+
+<nav>
+    <a href="index.html">Главная</a>
+    <a href="info.html">Общая информация</a>
+    <a href="history.html">История</a>
+    <a href="film.html">Фильмография</a>
+    <a href="links.html">Источники</a>
+    <a href="shop.html">Заказать</a>
+    <a href="contact.html">Контакты</a>
+</nav>
+
+<main>
+    <div class="album-container">
+        <div class="album">
+            <img src="1.jpg" alt="Please Please Me">
+            <h3>Please Please Me</h3>
+            <p>1963</p>
+            <a href="https://rus.hitmotop.com/get/music/20210228/The_Beatles_Full_Album_-_Please_Please_Me_1963_72812782.mp3" target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="2.jpg" alt="With The Beatles">
+            <h3>With The Beatles</h3>
+            <p>1963</p>
+            <a href="https://archive.org/details/02.-i-should-have-known-better" target="_blank">Скачать</a>
+        </div>
+        
+        <div class="album">
+            <img src="3.jpg" alt="A Hard Day's Night">
+            <h3>A Hard Day's Night</h3>
+            <p>1964</p>
+            <a href="#" target="_blank">Скачать</a> 
+        </div>
+        
+        <div class="album">
+            <img src="4.jpg" alt="Beatles For Sale">
+            <h3>Beatles For Sale</h3>
+            <p>1964</p>
+            <a href="https://rus.hitmotop.com/get/music/20190331/The_Beatles_1964_-_Beatles_For_Sale_Full_Album_63188973.mp3" target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="5.jpg" alt="Help!">
+            <h3>Help!</h3>
+            <p>1965</p>
+            <a href="https://archive.org/details/help-m.f.s.l._202203" target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="6.jpg" alt="Rubber Soul">
+            <h3>Rubber Soul</h3>
+            <p>1965</p>
+            <a href="https://archive.org/details/03-you-wont-see-me" target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="7.jpg" alt="Revolver">
+            <h3>Revolver</h3>
+            <p>1966</p>
+            <a href="https://archive.org/details/14-tomorrow-never-knows" target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="8.jpg" alt="Sgt. Pepper’s Lonely Hearts Club Band">
+            <h3>Sgt. Pepper’s Lonely Hearts Club Band</h3>
+            <p>1967</p>
+            <a href="https://archive.org/details/13-a-day-in-the-life_1967-2023" target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="9.jpg" alt="Magical Mystery Tour">
+            <h3>Magical Mystery Tour</h3>
+            <p>1967</p>
+            <a href="https://archive.org/details/magical-mystery-tour-m.f.s.l." target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="10.jpg" alt="The Beatles">
+            <h3>The White Album</h3>
+            <p>1968</p>
+            <a href="https://archive.org/details/the-beatles-the-white-album_202403" target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="11.jpg" alt="Yellow Submarine">
+            <h3>Yellow Submarine</h3>
+            <p>1969</p>
+            <a href="https://archive.org/details/yellow-submarine-m.f.s.l." target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="12.jpg" alt="Abbey Road">
+            <h3>Abbey Road</h3>
+            <p>1969</p>
+            <a href="https://archive.org/details/abbey-road-m.f.s.l." target="_blank">Скачать</a>
+        </div>
+
+        <div class="album">
+            <img src="13.jpg" alt="Let It Be">
+            <h3>Let It Be</h3>
+            <p>1970</p>
+            <a href="https://archive.org/details/let-it-be-m.f.s.l.">Скачать</a>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    <small>&copy; Все права защищены. Аверина У.В., БЭР2201. 2024.</small>
+</footer>
+
+</body>
+</html>
